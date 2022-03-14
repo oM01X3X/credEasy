@@ -2,6 +2,7 @@
 
 header {
     border-bottom: 0.3vh solid #27ca94c4;
+
 }
 
 .cabecalhoPrincipal .container {
@@ -22,11 +23,7 @@ header {
     margin-right: 5px;
     padding: 50px;
 }
-nav::after {
-    clear: both;
-    content: "";
-    display: block;
-}
+
 
 .cabecalhoPrincipal-titulo {
     margin-left: 3vw;
@@ -34,11 +31,21 @@ nav::after {
 
 
 .cabecalhoPrincipal-titulo a{
+    width: 10vw;
+    height: 10vh;
+    padding: 15px;
     color:#27ca94c4;
     font-style: none;
     text-decoration: none;
     font-size: 3rem;
     font-weight: 700;
+    border: 4px solid #27ca94c4;
+    border-radius: 100px;
+}
+
+.cabecalhoPrincipal-titulo a:hover{
+    background-color: #27ca94c4;
+    color: #eeeeee
 }
 
 .cabecalhoPrincipal-nav a{
@@ -50,4 +57,9 @@ nav::after {
     text-decoration: none;
     font-size: 1.4rem;
     font-weight: 700;
+    transform: 0.5s;
+}
+
+.cabecalhoPrincipal-nav a:hover {
+    color:#145a43c4
 }
