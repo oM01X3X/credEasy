@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,900&display=swap');
+
+header {
+    border-bottom: 0.3vh solid #27ca94c4;
+}
+
+.cabecalhoPrincipal .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+   font-family: 'Lato';
+   background-color: #eeeeee;
+   
+}
+
+.cabecalhoPrincipal {
+    margin-bottom: 2vh solid #27ca94c4;
+}
+
+.cabecalhoPrincipal-nav {
+    display: flex;
+    margin-right: 5px;
+    padding: 50px;
+}
+nav::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.cabecalhoPrincipal-titulo {
+    margin-left: 3vw;
+}
+
+
+.cabecalhoPrincipal-titulo a{
+    color:#27ca94c4;
+    font-style: none;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.cabecalhoPrincipal-nav a{
+    padding: 1vw;
+    font-style: none;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color:#27ca94c4;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
